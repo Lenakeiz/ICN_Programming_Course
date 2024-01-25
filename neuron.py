@@ -8,7 +8,7 @@ class Neuron:
         self.is_refractory = False
         self.firing_threshold = firing_threshold
 
-    def __string__(self):
+    def __str__(self):
         return f"Neuron {self.index} has {len(self.weights)} inputs"
 
     def weighted_sum(self, inputs):
@@ -39,6 +39,7 @@ class Neuron:
 # If the script is imported as a module in another script, __name__ is set to the name of the script/module.
 if __name__ == "__main__":
     neuron = Neuron(index=1, weights=[0.2, -0.4, 0.5], firing_threshold=0.2)
+    print(neuron)
     inputs = [0.5, 0.1, -0.3]
     output = neuron.process_inputs(inputs)
     print(f"Neuron output: {output}")
