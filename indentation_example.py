@@ -5,8 +5,8 @@ def calculate_average(numbers):
     for num in numbers:
         total += num
         count += 1
-        average = total / count
-        return average
+    average = total / count
+    return average
     
 def number_existence(number_to_find, numbers):
     found = False
@@ -15,10 +15,9 @@ def number_existence(number_to_find, numbers):
         if number_to_find == num:
             number_index = index
             found = True
-        print("True")
-        
-    else:
-        print("False")
+            print("True")        
+        else:
+            print("False")
     return [found,number_index]
 
 numbers = [5, 1, 3, 4, 2]
