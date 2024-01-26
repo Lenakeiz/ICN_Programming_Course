@@ -37,12 +37,12 @@ class Neuron:
 
 # When you run a Python script, Python sets __name__ to the string "__main__" if the script is executed as the main program.
 # If the script is imported as a module in another script, __name__ is set to the name of the script/module.
-#if __name__ == "__main__":
-mickey = Neuron(index=1, weights=[0.2, -0.4, 0.5], firing_threshold=0.2)
-print(mickey)
-inputs = [0.5, 0.1, -0.3]
-output = mickey.process_inputs(inputs)
-print(f"Neuron output: {output}")
-mickey.reset_refractory()
-output = mickey.process_inputs(inputs)
-print(f"Neuron output: {output}")
+if __name__ == "__main__":
+    neur = Neuron(index=1, weights=[0.2, -0.4, 0.5], firing_threshold=0.2)
+    print(neur)
+    inputs = [0.5, 0.1, -0.3]
+    output = neur.process_inputs(inputs)
+    print(f"Neuron output: {output}")
+    neur.reset_refractory()
+    output = neur.process_inputs(inputs)
+    print(f"Neuron output: {output}")
