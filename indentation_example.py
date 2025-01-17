@@ -44,7 +44,7 @@ def number_existence(number_to_find, numbers):
 
 numbers = [5, 1, 3, 4, 2]
 
-average = calculate_average_wrong_indent(numbers)
+average = calculate_average(numbers)
 print("The average is:", average)
 
 [isFound, index] = number_existence_wrong_indentation(4, numbers)

@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 matplotlib = "*"
 jupyter = "*"
 ipykernel = "*"
 pandas = "*"
+numpy = "*"
 
 [dev-packages]
 
