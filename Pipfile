@@ -9,6 +9,7 @@ jupyter = "*"
 ipykernel = "*"
 pandas = "*"
 numpy = "*"
+seaborn = "*"
 
 [dev-packages]
 
