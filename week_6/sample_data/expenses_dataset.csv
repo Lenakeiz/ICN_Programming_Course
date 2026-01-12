@@ -1,0 +1,601 @@
+Date,Day_of_Week,Category,Amount
+2025-01-01,Wednesday,Housing,1299.2
+2025-01-02,Thursday,Health/Medical,58.06
+2025-01-03,Friday,Dining Out,52.66
+2025-01-03,Friday,Dining Out,97.41
+2025-01-03,Friday,Groceries,67.53
+2025-01-05,Sunday,Entertainment,177.65
+2025-01-05,Sunday,Personal Care,70.58
+2025-01-05,Sunday,Transportation,36.33
+2025-01-07,Tuesday,Dining Out,35.41
+2025-01-08,Wednesday,Groceries,195.79
+2025-01-10,Friday,Dining Out,56.29
+2025-01-10,Friday,Dining Out,74.6
+2025-01-10,Friday,Entertainment,117.64
+2025-01-10,Friday,Groceries,104.83
+2025-01-10,Friday,Health/Medical,77.38
+2025-01-10,Friday,Transportation,24.01
+2025-01-11,Saturday,Entertainment,173.73
+2025-01-11,Saturday,Gifts,57.08
+2025-01-11,Saturday,Transportation,33.55
+2025-01-12,Sunday,Dining Out,38.15
+2025-01-12,Sunday,Entertainment,155.16
+2025-01-12,Sunday,Transportation,23.67
+2025-01-13,Monday,Transportation,36.92
+2025-01-14,Tuesday,Entertainment,142.08
+2025-01-14,Tuesday,Transportation,24.19
+2025-01-15,Wednesday,Transportation,5.06
+2025-01-15,Wednesday,Utilities,164.79
+2025-01-17,Friday,Dining Out,22.94
+2025-01-17,Friday,Dining Out,32.1
+2025-01-17,Friday,Dining Out,65.67
+2025-01-18,Saturday,Transportation,38.35
+2025-01-19,Sunday,Groceries,137.23
+2025-01-20,Monday,Transportation,28.53
+2025-01-21,Tuesday,Dining Out,63.78
+2025-01-22,Wednesday,Groceries,216.71
+2025-01-23,Thursday,Transportation,9.15
+2025-01-25,Saturday,Dining Out,78.39
+2025-01-25,Saturday,Gifts,69.99
+2025-01-25,Saturday,Utilities,110.15
+2025-01-25,Saturday,Utilities,155.75
+2025-01-25,Saturday,Utilities,196.48
+2025-01-26,Sunday,Groceries,112.14
+2025-01-27,Monday,Health/Medical,83.74
+2025-01-28,Tuesday,Dining Out,64.96
+2025-01-28,Tuesday,Transportation,28.6
+2025-01-30,Thursday,Groceries,68.74
+2025-01-31,Friday,Groceries,139.19
+2025-01-31,Friday,Groceries,142.02
+2025-02-01,Saturday,Dining Out,71.41
+2025-02-01,Saturday,Groceries,149.41
+2025-02-01,Saturday,Housing,1299.2
+2025-02-01,Saturday,Transportation,42.38
+2025-02-02,Sunday,Transportation,15.87
+2025-02-03,Monday,Dining Out,61.75
+2025-02-03,Monday,Dining Out,67.51
+2025-02-03,Monday,Groceries,127.8
+2025-02-04,Tuesday,Transportation,5.48
+2025-02-04,Tuesday,Transportation,43.98
+2025-02-05,Wednesday,Dining Out,67.51
+2025-02-05,Wednesday,Entertainment,33.89
+2025-02-07,Friday,Dining Out,63.38
+2025-02-07,Friday,Dining Out,87.47
+2025-02-07,Friday,Entertainment,86.39
+2025-02-08,Saturday,Groceries,54.98
+2025-02-08,Saturday,Groceries,115.76
+2025-02-09,Sunday,Entertainment,87.31
+2025-02-09,Sunday,Entertainment,100.89
+2025-02-09,Sunday,Transportation,32.43
+2025-02-10,Monday,Transportation,49.67
+2025-02-13,Thursday,Transportation,39.71
+2025-02-14,Friday,Dining Out,85.56
+2025-02-15,Saturday,Dining Out,100.51
+2025-02-15,Saturday,Health/Medical,50.6
+2025-02-15,Saturday,Transportation,46.7
+2025-02-15,Saturday,Utilities,156.51
+2025-02-15,Saturday,Utilities,171.4
+2025-02-16,Sunday,Dining Out,22.23
+2025-02-16,Sunday,Dining Out,38.03
+2025-02-16,Sunday,Personal Care,77.83
+2025-02-16,Sunday,Transportation,44.27
+2025-02-19,Wednesday,Dining Out,58.22
+2025-02-19,Wednesday,Groceries,152.35
+2025-02-20,Thursday,Transportation,25.64
+2025-02-21,Friday,Entertainment,201.96
+2025-02-21,Friday,Holiday,341.42
+2025-02-22,Saturday,Dining Out,21.54
+2025-02-23,Sunday,Dining Out,93.31
+2025-02-25,Tuesday,Utilities,41.14
+2025-02-25,Tuesday,Utilities,107.24
+2025-02-25,Tuesday,Utilities,161.68
+2025-02-26,Wednesday,Groceries,78.09
+2025-02-26,Wednesday,Health/Medical,72.01
+2025-02-27,Thursday,Dining Out,43.7
+2025-02-27,Thursday,Transportation,6.08
+2025-02-28,Friday,Holiday,215.03
+2025-03-01,Saturday,Dining Out,86.01
+2025-03-01,Saturday,Entertainment,49.18
+2025-03-01,Saturday,Housing,1299.2
+2025-03-01,Saturday,Personal Care,105.57
+2025-03-02,Sunday,Groceries,91.47
+2025-03-03,Monday,Health/Medical,37.18
+2025-03-03,Monday,Transportation,6.59
+2025-03-04,Tuesday,Entertainment,66.57
+2025-03-04,Tuesday,Groceries,52.5
+2025-03-07,Friday,Dining Out,45.78
+2025-03-09,Sunday,Dining Out,71.39
+2025-03-09,Sunday,Transportation,30.28
+2025-03-10,Monday,Groceries,228.91
+2025-03-12,Wednesday,Groceries,73.61
+2025-03-12,Wednesday,Groceries,125.11
+2025-03-14,Friday,Dining Out,60.07
+2025-03-14,Friday,Gifts,90.18
+2025-03-14,Friday,Transportation,7.58
+2025-03-15,Saturday,Personal Care,54.9
+2025-03-15,Saturday,Transportation,20.17
+2025-03-15,Saturday,Utilities,147.58
+2025-03-16,Sunday,Entertainment,39.46
+2025-03-16,Sunday,Health/Medical,81.05
+2025-03-17,Monday,Transportation,31.92
+2025-03-20,Thursday,Dining Out,21.81
+2025-03-20,Thursday,Gifts,87.59
+2025-03-21,Friday,Dining Out,82.15
+2025-03-21,Friday,Groceries,203.35
+2025-03-21,Friday,Transportation,38.91
+2025-03-23,Sunday,Dining Out,94.51
+2025-03-23,Sunday,Groceries,243.37
+2025-03-23,Sunday,Holiday,219.43
+2025-03-23,Sunday,Transportation,45.24
+2025-03-25,Tuesday,Utilities,63.51
+2025-03-25,Tuesday,Utilities,145.03
+2025-03-25,Tuesday,Utilities,153.93
+2025-03-27,Thursday,Dining Out,30.73
+2025-03-27,Thursday,Transportation,19.76
+2025-03-28,Friday,Groceries,102.58
+2025-03-28,Friday,Holiday,139.11
+2025-03-28,Friday,Transportation,45.29
+2025-03-29,Saturday,Entertainment,32.61
+2025-03-29,Saturday,Groceries,74.65
+2025-03-29,Saturday,Transportation,30.08
+2025-03-30,Sunday,Dining Out,30.8
+2025-03-30,Sunday,Dining Out,42.76
+2025-03-30,Sunday,Entertainment,156.18
+2025-03-30,Sunday,Health/Medical,29.49
+2025-03-30,Sunday,Personal Care,97.08
+2025-03-31,Monday,Dining Out,55.92
+2025-03-31,Monday,Groceries,109.1
+2025-04-01,Tuesday,Housing,1299.2
+2025-04-03,Thursday,Dining Out,66.53
+2025-04-04,Friday,Dining Out,82.11
+2025-04-05,Saturday,Personal Care,89.66
+2025-04-05,Saturday,Transportation,21.05
+2025-04-06,Sunday,Dining Out,32.15
+2025-04-06,Sunday,Dining Out,55.4
+2025-04-06,Sunday,Groceries,189.59
+2025-04-07,Monday,Transportation,11.63
+2025-04-08,Tuesday,Transportation,17.41
+2025-04-09,Wednesday,Entertainment,124.92
+2025-04-09,Wednesday,Groceries,247.88
+2025-04-11,Friday,Dining Out,64.9
+2025-04-11,Friday,Health/Medical,98.5
+2025-04-12,Saturday,Dining Out,21.84
+2025-04-13,Sunday,Entertainment,68.44
+2025-04-13,Sunday,Groceries,243.62
+2025-04-14,Monday,Dining Out,46.61
+2025-04-14,Monday,Groceries,171.43
+2025-04-15,Tuesday,Health/Medical,50.1
+2025-04-15,Tuesday,Transportation,22.98
+2025-04-15,Tuesday,Utilities,78.05
+2025-04-15,Tuesday,Utilities,173.26
+2025-04-16,Wednesday,Entertainment,140.54
+2025-04-17,Thursday,Dining Out,48.32
+2025-04-19,Saturday,Groceries,216.45
+2025-04-20,Sunday,Dining Out,26.61
+2025-04-20,Sunday,Groceries,115.75
+2025-04-21,Monday,Entertainment,90.46
+2025-04-21,Monday,Entertainment,136.36
+2025-04-21,Monday,Transportation,5.19
+2025-04-22,Tuesday,Transportation,25.71
+2025-04-24,Thursday,Dining Out,25.77
+2025-04-25,Friday,Dining Out,77.35
+2025-04-25,Friday,Gifts,99.39
+2025-04-25,Friday,Transportation,15.61
+2025-04-25,Friday,Transportation,17.35
+2025-04-25,Friday,Transportation,29.27
+2025-04-25,Friday,Utilities,117.75
+2025-04-25,Friday,Utilities,120.81
+2025-04-27,Sunday,Dining Out,76.31
+2025-04-27,Sunday,Dining Out,92.75
+2025-04-27,Sunday,Personal Care,51.69
+2025-04-28,Monday,Gifts,46.09
+2025-04-28,Monday,Groceries,111.92
+2025-04-29,Tuesday,Transportation,26.23
+2025-05-01,Thursday,Housing,1299.2
+2025-05-01,Thursday,Personal Care,55.18
+2025-05-02,Friday,Dining Out,110.32
+2025-05-03,Saturday,Dining Out,106.51
+2025-05-03,Saturday,Groceries,97.16
+2025-05-03,Saturday,Groceries,162.55
+2025-05-04,Sunday,Transportation,5.97
+2025-05-07,Wednesday,Groceries,212.34
+2025-05-09,Friday,Dining Out,58.3
+2025-05-09,Friday,Groceries,63.77
+2025-05-10,Saturday,Dining Out,51.18
+2025-05-10,Saturday,Entertainment,164.69
+2025-05-10,Saturday,Personal Care,106.17
+2025-05-11,Sunday,Groceries,71.31
+2025-05-11,Sunday,Transportation,40.94
+2025-05-13,Tuesday,Transportation,9.0
+2025-05-15,Thursday,Groceries,143.96
+2025-05-15,Thursday,Utilities,70.78
+2025-05-15,Thursday,Utilities,118.04
+2025-05-15,Thursday,Utilities,129.21
+2025-05-15,Thursday,Utilities,145.07
+2025-05-16,Friday,Dining Out,47.17
+2025-05-16,Friday,Entertainment,80.02
+2025-05-16,Friday,Entertainment,99.31
+2025-05-16,Friday,Gifts,68.72
+2025-05-16,Friday,Transportation,35.88
+2025-05-17,Saturday,Transportation,8.34
+2025-05-17,Saturday,Transportation,15.53
+2025-05-18,Sunday,Groceries,247.82
+2025-05-18,Sunday,Health/Medical,50.06
+2025-05-20,Tuesday,Entertainment,22.07
+2025-05-21,Wednesday,Dining Out,37.93
+2025-05-23,Friday,Transportation,21.51
+2025-05-23,Friday,Transportation,22.79
+2025-05-25,Sunday,Transportation,8.57
+2025-05-26,Monday,Transportation,12.38
+2025-05-27,Tuesday,Health/Medical,68.57
+2025-05-27,Tuesday,Transportation,27.69
+2025-05-29,Thursday,Groceries,148.24
+2025-05-30,Friday,Dining Out,27.07
+2025-05-30,Friday,Dining Out,39.82
+2025-05-30,Friday,Dining Out,40.87
+2025-05-30,Friday,Dining Out,57.86
+2025-05-30,Friday,Dining Out,84.97
+2025-05-30,Friday,Entertainment,212.86
+2025-05-30,Friday,Health/Medical,29.36
+2025-05-31,Saturday,Dining Out,40.54
+2025-05-31,Saturday,Entertainment,93.3
+2025-05-31,Saturday,Groceries,166.77
+2025-05-31,Saturday,Groceries,192.31
+2025-05-31,Saturday,Personal Care,86.43
+2025-05-31,Saturday,Transportation,36.43
+2025-06-01,Sunday,Dining Out,19.85
+2025-06-01,Sunday,Entertainment,136.78
+2025-06-01,Sunday,Entertainment,199.77
+2025-06-01,Sunday,Groceries,57.63
+2025-06-01,Sunday,Housing,1299.2
+2025-06-03,Tuesday,Dining Out,57.82
+2025-06-03,Tuesday,Dining Out,65.75
+2025-06-05,Thursday,Transportation,48.16
+2025-06-06,Friday,Groceries,183.53
+2025-06-06,Friday,Health/Medical,75.78
+2025-06-06,Friday,Personal Care,23.25
+2025-06-06,Friday,Transportation,28.35
+2025-06-07,Saturday,Dining Out,50.59
+2025-06-08,Sunday,Dining Out,53.65
+2025-06-08,Sunday,Holiday,236.68
+2025-06-08,Sunday,Transportation,15.12
+2025-06-09,Monday,Groceries,231.03
+2025-06-10,Tuesday,Transportation,8.04
+2025-06-12,Thursday,Groceries,207.55
+2025-06-13,Friday,Dining Out,28.51
+2025-06-13,Friday,Transportation,25.25
+2025-06-14,Saturday,Personal Care,26.2
+2025-06-14,Saturday,Transportation,24.6
+2025-06-15,Sunday,Groceries,155.1
+2025-06-15,Sunday,Utilities,76.25
+2025-06-15,Sunday,Utilities,76.67
+2025-06-15,Sunday,Utilities,78.78
+2025-06-20,Friday,Entertainment,87.17
+2025-06-20,Friday,Health/Medical,78.7
+2025-06-20,Friday,Transportation,40.67
+2025-06-21,Saturday,Dining Out,61.57
+2025-06-21,Saturday,Entertainment,154.99
+2025-06-22,Sunday,Dining Out,22.36
+2025-06-22,Sunday,Dining Out,59.28
+2025-06-22,Sunday,Transportation,13.74
+2025-06-22,Sunday,Transportation,19.13
+2025-06-22,Sunday,Transportation,28.19
+2025-06-24,Tuesday,Dining Out,33.16
+2025-06-24,Tuesday,Transportation,11.84
+2025-06-25,Wednesday,Utilities,123.54
+2025-06-26,Thursday,Entertainment,29.09
+2025-06-27,Friday,Dining Out,39.31
+2025-06-27,Friday,Groceries,202.17
+2025-06-27,Friday,Transportation,7.28
+2025-06-27,Friday,Transportation,26.47
+2025-06-27,Friday,Transportation,37.83
+2025-06-28,Saturday,Dining Out,42.05
+2025-06-28,Saturday,Dining Out,48.86
+2025-06-28,Saturday,Dining Out,59.76
+2025-06-28,Saturday,Personal Care,42.04
+2025-06-29,Sunday,Gifts,85.47
+2025-06-29,Sunday,Transportation,43.55
+2025-07-01,Tuesday,Dining Out,52.15
+2025-07-01,Tuesday,Housing,1299.2
+2025-07-01,Tuesday,Transportation,29.81
+2025-07-03,Thursday,Groceries,90.39
+2025-07-03,Thursday,Personal Care,17.91
+2025-07-04,Friday,Dining Out,52.92
+2025-07-04,Friday,Personal Care,55.45
+2025-07-05,Saturday,Dining Out,107.83
+2025-07-05,Saturday,Entertainment,137.97
+2025-07-05,Saturday,Groceries,84.04
+2025-07-06,Sunday,Dining Out,89.09
+2025-07-06,Sunday,Entertainment,67.26
+2025-07-07,Monday,Transportation,20.24
+2025-07-08,Tuesday,Dining Out,40.37
+2025-07-08,Tuesday,Transportation,7.66
+2025-07-10,Thursday,Groceries,151.82
+2025-07-10,Thursday,Transportation,33.35
+2025-07-11,Friday,Entertainment,175.43
+2025-07-11,Friday,Groceries,108.8
+2025-07-12,Saturday,Transportation,41.63
+2025-07-13,Sunday,Dining Out,64.07
+2025-07-13,Sunday,Entertainment,174.1
+2025-07-15,Tuesday,Utilities,82.39
+2025-07-15,Tuesday,Utilities,111.84
+2025-07-18,Friday,Dining Out,45.42
+2025-07-18,Friday,Dining Out,72.72
+2025-07-18,Friday,Groceries,57.0
+2025-07-18,Friday,Holiday,418.64
+2025-07-18,Friday,Transportation,11.94
+2025-07-19,Saturday,Entertainment,108.38
+2025-07-19,Saturday,Personal Care,71.43
+2025-07-20,Sunday,Transportation,27.91
+2025-07-21,Monday,Dining Out,41.02
+2025-07-22,Tuesday,Transportation,7.16
+2025-07-24,Thursday,Health/Medical,70.93
+2025-07-24,Thursday,Transportation,11.42
+2025-07-25,Friday,Dining Out,48.5
+2025-07-25,Friday,Entertainment,172.96
+2025-07-25,Friday,Transportation,22.46
+2025-07-25,Friday,Transportation,44.01
+2025-07-25,Friday,Utilities,139.08
+2025-07-25,Friday,Utilities,172.15
+2025-07-26,Saturday,Dining Out,30.37
+2025-07-26,Saturday,Groceries,178.2
+2025-07-26,Saturday,Holiday,243.86
+2025-07-27,Sunday,Dining Out,34.49
+2025-07-28,Monday,Transportation,18.57
+2025-07-28,Monday,Transportation,22.24
+2025-07-29,Tuesday,Groceries,155.61
+2025-07-31,Thursday,Dining Out,27.17
+2025-07-31,Thursday,Entertainment,124.94
+2025-07-31,Thursday,Groceries,193.91
+2025-08-01,Friday,Housing,1299.2
+2025-08-01,Friday,Transportation,48.84
+2025-08-02,Saturday,Entertainment,106.59
+2025-08-02,Saturday,Entertainment,166.82
+2025-08-02,Saturday,Transportation,20.55
+2025-08-03,Sunday,Dining Out,99.06
+2025-08-03,Sunday,Personal Care,44.05
+2025-08-03,Sunday,Transportation,13.93
+2025-08-07,Thursday,Holiday,350.56
+2025-08-08,Friday,Dining Out,77.76
+2025-08-08,Friday,Entertainment,146.68
+2025-08-08,Friday,Groceries,160.14
+2025-08-08,Friday,Groceries,213.58
+2025-08-08,Friday,Transportation,21.65
+2025-08-09,Saturday,Dining Out,80.19
+2025-08-09,Saturday,Groceries,237.07
+2025-08-09,Saturday,Health/Medical,65.54
+2025-08-09,Saturday,Transportation,6.47
+2025-08-10,Sunday,Dining Out,54.09
+2025-08-13,Wednesday,Groceries,216.1
+2025-08-14,Thursday,Groceries,140.64
+2025-08-15,Friday,Dining Out,58.74
+2025-08-15,Friday,Dining Out,108.25
+2025-08-15,Friday,Transportation,33.86
+2025-08-15,Friday,Utilities,118.66
+2025-08-15,Friday,Utilities,180.08
+2025-08-16,Saturday,Dining Out,24.9
+2025-08-16,Saturday,Entertainment,29.73
+2025-08-16,Saturday,Entertainment,115.97
+2025-08-17,Sunday,Holiday,224.3
+2025-08-19,Tuesday,Groceries,122.61
+2025-08-20,Wednesday,Personal Care,22.65
+2025-08-21,Thursday,Entertainment,50.91
+2025-08-21,Thursday,Transportation,49.7
+2025-08-22,Friday,Groceries,40.71
+2025-08-22,Friday,Transportation,43.03
+2025-08-23,Saturday,Dining Out,34.04
+2025-08-23,Saturday,Dining Out,65.2
+2025-08-24,Sunday,Entertainment,80.39
+2025-08-24,Sunday,Transportation,25.65
+2025-08-25,Monday,Utilities,132.31
+2025-08-25,Monday,Utilities,154.99
+2025-08-25,Monday,Utilities,179.71
+2025-08-26,Tuesday,Transportation,41.81
+2025-08-29,Friday,Dining Out,76.34
+2025-08-29,Friday,Groceries,87.19
+2025-08-29,Friday,Groceries,246.62
+2025-08-29,Friday,Transportation,42.65
+2025-08-30,Saturday,Transportation,38.15
+2025-08-31,Sunday,Health/Medical,51.43
+2025-08-31,Sunday,Personal Care,72.6
+2025-08-31,Sunday,Transportation,7.4
+2025-09-01,Monday,Housing,1299.2
+2025-09-03,Wednesday,Personal Care,63.04
+2025-09-05,Friday,Dining Out,34.89
+2025-09-06,Saturday,Dining Out,58.53
+2025-09-06,Saturday,Dining Out,97.66
+2025-09-06,Saturday,Entertainment,84.18
+2025-09-06,Saturday,Groceries,119.58
+2025-09-07,Sunday,Dining Out,94.97
+2025-09-07,Sunday,Entertainment,69.54
+2025-09-07,Sunday,Health/Medical,25.14
+2025-09-07,Sunday,Transportation,26.41
+2025-09-08,Monday,Dining Out,43.51
+2025-09-08,Monday,Dining Out,58.86
+2025-09-08,Monday,Groceries,82.24
+2025-09-09,Tuesday,Groceries,240.86
+2025-09-09,Tuesday,Transportation,6.74
+2025-09-10,Wednesday,Transportation,14.1
+2025-09-10,Wednesday,Transportation,15.79
+2025-09-12,Friday,Dining Out,76.59
+2025-09-13,Saturday,Entertainment,82.93
+2025-09-13,Saturday,Transportation,15.74
+2025-09-14,Sunday,Dining Out,46.71
+2025-09-14,Sunday,Dining Out,73.11
+2025-09-14,Sunday,Groceries,147.54
+2025-09-14,Sunday,Transportation,12.24
+2025-09-14,Sunday,Transportation,24.61
+2025-09-15,Monday,Gifts,46.21
+2025-09-16,Tuesday,Transportation,39.63
+2025-09-17,Wednesday,Groceries,127.4
+2025-09-18,Thursday,Dining Out,28.85
+2025-09-19,Friday,Groceries,177.79
+2025-09-20,Saturday,Entertainment,183.12
+2025-09-20,Saturday,Transportation,36.51
+2025-09-21,Sunday,Dining Out,93.42
+2025-09-22,Monday,Health/Medical,37.83
+2025-09-23,Tuesday,Groceries,208.24
+2025-09-24,Wednesday,Gifts,50.9
+2025-09-25,Thursday,Dining Out,18.79
+2025-09-25,Thursday,Transportation,38.41
+2025-09-25,Thursday,Utilities,56.85
+2025-09-25,Thursday,Utilities,112.55
+2025-09-25,Thursday,Utilities,118.42
+2025-09-25,Thursday,Utilities,169.5
+2025-09-25,Thursday,Utilities,177.12
+2025-09-27,Saturday,Entertainment,107.79
+2025-09-27,Saturday,Holiday,140.7
+2025-09-28,Sunday,Dining Out,96.47
+2025-09-28,Sunday,Groceries,151.6
+2025-09-28,Sunday,Transportation,23.07
+2025-09-30,Tuesday,Entertainment,131.81
+2025-09-30,Tuesday,Holiday,411.7
+2025-10-01,Wednesday,Dining Out,66.4
+2025-10-01,Wednesday,Dining Out,72.69
+2025-10-01,Wednesday,Housing,1299.2
+2025-10-02,Thursday,Transportation,39.64
+2025-10-03,Friday,Dining Out,30.18
+2025-10-03,Friday,Dining Out,70.89
+2025-10-04,Saturday,Transportation,21.62
+2025-10-05,Sunday,Entertainment,114.8
+2025-10-05,Sunday,Groceries,54.29
+2025-10-05,Sunday,Transportation,24.49
+2025-10-05,Sunday,Transportation,24.87
+2025-10-06,Monday,Entertainment,31.4
+2025-10-06,Monday,Groceries,158.26
+2025-10-07,Tuesday,Entertainment,105.94
+2025-10-07,Tuesday,Holiday,329.49
+2025-10-08,Wednesday,Transportation,33.21
+2025-10-10,Friday,Groceries,100.19
+2025-10-10,Friday,Groceries,172.88
+2025-10-10,Friday,Transportation,46.25
+2025-10-11,Saturday,Transportation,12.74
+2025-10-12,Sunday,Dining Out,111.93
+2025-10-15,Wednesday,Utilities,84.79
+2025-10-15,Wednesday,Utilities,96.09
+2025-10-15,Wednesday,Utilities,128.98
+2025-10-16,Thursday,Groceries,117.89
+2025-10-17,Friday,Dining Out,42.45
+2025-10-17,Friday,Entertainment,104.87
+2025-10-17,Friday,Health/Medical,44.88
+2025-10-18,Saturday,Gifts,73.1
+2025-10-18,Saturday,Groceries,116.99
+2025-10-18,Saturday,Transportation,9.1
+2025-10-19,Sunday,Dining Out,33.26
+2025-10-19,Sunday,Dining Out,98.26
+2025-10-19,Sunday,Transportation,10.73
+2025-10-19,Sunday,Transportation,39.51
+2025-10-21,Tuesday,Dining Out,32.28
+2025-10-22,Wednesday,Entertainment,141.53
+2025-10-24,Friday,Dining Out,50.65
+2025-10-24,Friday,Entertainment,105.86
+2025-10-24,Friday,Entertainment,162.77
+2025-10-25,Saturday,Utilities,40.73
+2025-10-25,Saturday,Utilities,138.65
+2025-10-26,Sunday,Entertainment,130.34
+2025-10-26,Sunday,Holiday,449.52
+2025-10-26,Sunday,Transportation,11.79
+2025-10-27,Monday,Dining Out,25.66
+2025-10-27,Monday,Personal Care,42.44
+2025-10-29,Wednesday,Groceries,56.7
+2025-10-31,Friday,Dining Out,87.64
+2025-10-31,Friday,Groceries,44.91
+2025-10-31,Friday,Transportation,39.04
+2025-11-01,Saturday,Dining Out,46.12
+2025-11-01,Saturday,Dining Out,82.36
+2025-11-01,Saturday,Dining Out,84.61
+2025-11-01,Saturday,Groceries,67.1
+2025-11-01,Saturday,Housing,1299.2
+2025-11-01,Saturday,Personal Care,84.54
+2025-11-02,Sunday,Dining Out,27.78
+2025-11-02,Sunday,Transportation,48.71
+2025-11-03,Monday,Entertainment,54.58
+2025-11-04,Tuesday,Dining Out,29.03
+2025-11-04,Tuesday,Dining Out,39.7
+2025-11-04,Tuesday,Dining Out,64.26
+2025-11-04,Tuesday,Transportation,32.97
+2025-11-06,Thursday,Groceries,159.11
+2025-11-07,Friday,Dining Out,29.72
+2025-11-07,Friday,Dining Out,47.49
+2025-11-07,Friday,Entertainment,199.54
+2025-11-08,Saturday,Dining Out,66.14
+2025-11-08,Saturday,Entertainment,39.13
+2025-11-08,Saturday,Holiday,497.14
+2025-11-08,Saturday,Transportation,35.27
+2025-11-09,Sunday,Health/Medical,20.55
+2025-11-10,Monday,Transportation,39.12
+2025-11-11,Tuesday,Dining Out,65.27
+2025-11-12,Wednesday,Dining Out,18.39
+2025-11-12,Wednesday,Gifts,61.21
+2025-11-14,Friday,Entertainment,204.32
+2025-11-14,Friday,Groceries,44.58
+2025-11-14,Friday,Groceries,179.52
+2025-11-14,Friday,Groceries,211.33
+2025-11-14,Friday,Transportation,37.29
+2025-11-15,Saturday,Dining Out,81.67
+2025-11-15,Saturday,Transportation,45.74
+2025-11-15,Saturday,Utilities,93.64
+2025-11-15,Saturday,Utilities,98.63
+2025-11-15,Saturday,Utilities,127.3
+2025-11-15,Saturday,Utilities,191.53
+2025-11-16,Sunday,Entertainment,135.71
+2025-11-16,Sunday,Personal Care,85.52
+2025-11-17,Monday,Transportation,18.16
+2025-11-19,Wednesday,Dining Out,72.8
+2025-11-22,Saturday,Entertainment,66.47
+2025-11-22,Saturday,Transportation,39.57
+2025-11-23,Sunday,Gifts,96.83
+2025-11-25,Tuesday,Entertainment,134.56
+2025-11-25,Tuesday,Personal Care,58.11
+2025-11-25,Tuesday,Utilities,197.08
+2025-11-27,Thursday,Transportation,15.06
+2025-11-28,Friday,Health/Medical,99.4
+2025-11-29,Saturday,Groceries,65.24
+2025-11-30,Sunday,Dining Out,50.86
+2025-11-30,Sunday,Transportation,29.86
+2025-12-01,Monday,Housing,1299.2
+2025-12-02,Tuesday,Dining Out,70.73
+2025-12-02,Tuesday,Transportation,32.98
+2025-12-03,Wednesday,Groceries,150.79
+2025-12-03,Wednesday,Transportation,21.79
+2025-12-04,Thursday,Groceries,220.71
+2025-12-05,Friday,Entertainment,175.03
+2025-12-05,Friday,Transportation,10.5
+2025-12-06,Saturday,Health/Medical,89.62
+2025-12-06,Saturday,Transportation,31.94
+2025-12-06,Saturday,Transportation,32.36
+2025-12-07,Sunday,Entertainment,199.08
+2025-12-07,Sunday,Groceries,55.97
+2025-12-07,Sunday,Transportation,28.67
+2025-12-07,Sunday,Transportation,45.81
+2025-12-09,Tuesday,Dining Out,35.4
+2025-12-09,Tuesday,Entertainment,28.96
+2025-12-11,Thursday,Groceries,82.82
+2025-12-12,Friday,Dining Out,80.27
+2025-12-13,Saturday,Personal Care,72.53
+2025-12-14,Sunday,Transportation,18.55
+2025-12-15,Monday,Utilities,110.52
+2025-12-15,Monday,Utilities,151.64
+2025-12-15,Monday,Utilities,167.7
+2025-12-17,Wednesday,Transportation,28.76
+2025-12-18,Thursday,Health/Medical,40.56
+2025-12-19,Friday,Dining Out,41.55
+2025-12-19,Friday,Dining Out,95.24
+2025-12-20,Saturday,Entertainment,127.37
+2025-12-20,Saturday,Transportation,7.39
+2025-12-22,Monday,Entertainment,41.02
+2025-12-22,Monday,Gifts,49.36
+2025-12-22,Monday,Transportation,8.22
+2025-12-22,Monday,Transportation,32.28
+2025-12-23,Tuesday,Dining Out,23.43
+2025-12-24,Wednesday,Dining Out,70.87
+2025-12-25,Thursday,Dining Out,25.05
+2025-12-25,Thursday,Utilities,84.72
+2025-12-26,Friday,Dining Out,108.33
+2025-12-26,Friday,Groceries,50.83
+2025-12-26,Friday,Groceries,193.98
+2025-12-27,Saturday,Dining Out,66.99
+2025-12-27,Saturday,Entertainment,140.16
+2025-12-27,Saturday,Transportation,33.5
+2025-12-29,Monday,Groceries,94.68
+2025-12-31,Wednesday,Groceries,87.31
