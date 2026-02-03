@@ -12,6 +12,7 @@ numpy = "*"
 seaborn = "*"
 scipy = "*"
 psychopy = "*"
+screeninfo = "*"
 
 [dev-packages]
 
