@@ -23,7 +23,7 @@ def open_window():
         win = visual.Window(
             size=(900, 600),  # Size of the window in pixels
             pos=(0, 0),  # Position of the window (top-left corner)
-            color=(0, 0, 0),  # Black color in 0-255 scale
+            color=[0, 0, 0],  # Black color in 0-255 scale
             colorSpace='rgb255',  # Specify color space as rgb255 for familiarity
             units="pix",  # Use pixel units
             monitor=my_monitor,  # Apply the monitor configuration

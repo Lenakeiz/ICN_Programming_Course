@@ -34,7 +34,7 @@ def check_keyboard_input(screen_index=0):
         win.flip()
         
         # Wait for a key press (equivalent to KbWait)
-        keys = event.waitKeys()[0]  # Get the first key press
+        keys = event.waitKeys()  # Get the first key press
         
         # Create and draw the result text
         result = visual.TextStim(

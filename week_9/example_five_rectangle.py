@@ -28,8 +28,8 @@ def draw_green_rectangle(screen_index=0):
         # Position is relative to center, so we need to adjust coordinates accordingly
         rectangle = visual.Rect(
             win=win,
-            width=win_size[0]/2 - 150,    # Width from center to edge minus margin
-            height=win_size[1]/2 - 150,    # Height from center to edge minus margin
+            width=win_size[0]/2,    # Width from center to edge minus margin
+            height=win_size[1]/2,    # Height from center to edge minus margin
             pos=(win_size[0]/4, win_size[1]/4),  # Position in upper right quadrant
             fillColor=[0, 1, 0],  # Green color
             lineColor=[1, 0, 0],  # red border

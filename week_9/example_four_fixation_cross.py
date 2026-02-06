@@ -24,7 +24,7 @@ def draw_fixation_cross(screen_index=0):
             win=win,
             start=(-100, 0),  # (x,y) start point
             end=(100, 0),     # (x,y) end point
-            lineWidth=10,
+            lineWidth=100,
             lineColor=[1, 1, 1],  # White color
             units='pix'
         )
@@ -34,7 +34,7 @@ def draw_fixation_cross(screen_index=0):
             win=win,
             start=(0, -100),  # (x,y) start point
             end=(0, 100),     # (x,y) end point
-            lineWidth=10,
+            lineWidth=100,
             lineColor=[1, 1, 1],  # White color
             units='pix'
         )
