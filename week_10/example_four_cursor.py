@@ -1,25 +1,38 @@
 from psychopy import visual, core, event, monitors
 from psychopy.hardware import mouse
 
-def cursor_control():
+from screeninfo import get_monitors
+
+def create_window():
+    # Get system monitors information
+    system_monitors = get_monitors()
+    print(f"System detected monitors: {system_monitors}")
+    
+    # Get the external monitor (it may be indexed differently on your system)
+    screen_index = 1 if len(system_monitors) > 1 else 0
+    target_monitor = system_monitors[screen_index]
+    print(f"Using monitor: {target_monitor}")
+    print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
+    """Create a PsychoPy window with black background"""
+    return visual.Window(
+        fullscr=True,
+        monitor="testMonitor",
+        units="pix",
+        color=[0, 0, 0],
+        colorSpace='rgb255',
+        screen=screen_index
+    )
+
+def cursor_control(win):
     """Example 4: Hiding and Showing mouse cursor"""
     try:
-        # Create window
-        win = visual.Window(
-            fullscr=True,
-            monitor="testMonitor",
-            units="pix",
-            color=[0, 0, 0],
-            colorSpace='rgb255'
-        )
-        
         # Create mouse object
         mouse_obj = mouse.Mouse(visible=True, win=win)
         
         # Create rectangle stimulus
         rect = visual.Rect(
             win=win,
-            width=300,  # 150 * 2 as in MATLAB example
+            width=300, 
             height=300,
             pos=(0, 0),  # Center position
             fillColor=[25, 255, 25],  # Light green
@@ -64,12 +77,14 @@ def cursor_control():
     except Exception as e:
         print(f"Error: {str(e)}")
         raise
-    finally:
-        # Ensure cursor is visible and window is closed
-        if 'mouse_obj' in locals():
-            mouse_obj.setVisible(True)
-        if 'win' in locals():
-            win.close()
 
 if __name__ == "__main__":
-    cursor_control()
+    try:
+        win = create_window()
+        cursor_control(win)
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        raise
+    finally:
+        if 'win' in locals():
+            win.close()

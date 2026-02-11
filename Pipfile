@@ -13,6 +13,7 @@ seaborn = "*"
 scipy = "*"
 psychopy = "*"
 screeninfo = "*"
+sounddevice = "*"
 
 [dev-packages]
 

@@ -2,19 +2,31 @@ from psychopy import visual, core, event
 from psychopy.hardware import mouse
 import numpy as np
 
-def mouse_query():
+from screeninfo import get_monitors
+
+def create_window():
+    # Get system monitors information
+    system_monitors = get_monitors()
+    print(f"System detected monitors: {system_monitors}")
+    
+    # Get the external monitor (it may be indexed differently on your system)
+    screen_index = 1 if len(system_monitors) > 1 else 0
+    target_monitor = system_monitors[screen_index]
+    print(f"Using monitor: {target_monitor}")
+    print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
+    """Create a PsychoPy window with black background"""
+    return visual.Window(
+        fullscr=True,
+        monitor="testMonitor",
+        units="pix",
+        color=[0, 0, 0],
+        colorSpace='rgb255',
+        screen=screen_index
+    )
+
+def mouse_query(win):
     """Example 5: Querying the mouse position and drawing dots"""
     try:
-        # Create window
-        win = visual.Window(
-            fullscr=True,
-            monitor="testMonitor",
-            units="pix",
-            color=[0, 0, 0],
-            colorSpace='rgb255',
-            screen=1
-        )
-        
         # Create mouse object
         mouse_obj = mouse.Mouse(visible=False, win=win)
         
@@ -70,12 +82,14 @@ def mouse_query():
     except Exception as e:
         print(f"Error: {str(e)}")
         raise
-    finally:
-        # Ensure cursor is visible and window is closed
-        if 'mouse_obj' in locals():
-            mouse_obj.setVisible(True)
-        if 'win' in locals():
-            win.close()
 
 if __name__ == "__main__":
-    mouse_query()
+    try:
+        win = create_window()
+        mouse_query(win)
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        raise
+    finally:
+        if 'win' in locals():
+            win.close()

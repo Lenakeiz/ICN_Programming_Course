@@ -3,14 +3,27 @@ import numpy as np
 import time
 from datetime import datetime
 
+from screeninfo import get_monitors
+
 def create_window():
+    # Get system monitors information
+    system_monitors = get_monitors()
+    print(f"System detected monitors: {system_monitors}")
+    
+    # Get the external monitor (it may be indexed differently on your system)
+    screen_index = 1 if len(system_monitors) > 1 else 0
+    target_monitor = system_monitors[screen_index]
+    print(f"Using monitor: {target_monitor}")
+    print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
+
     """Create a PsychoPy window with black background"""
     return visual.Window(
         fullscr=True,
         monitor="testMonitor",
         units="pix",
         color=[0, 0, 0],
-        colorSpace='rgb255'
+        colorSpace='rgb255',
+        screen=screen_index
     )
 
 def basic_timing(win):
@@ -40,7 +53,7 @@ def basic_timing(win):
         t1 = datetime.now()
         
         # Display start time
-        print(f"Showing keyboard timings using example 1. Timestamp {start_t:.3f}s {t1}")
+        print(f"Timestamp {start_t:.3f}s {t1}")
 
         # Wait for key press with timeout
         keys = event.waitKeys(maxWait=trial_duration, timeStamped=True)
@@ -58,10 +71,12 @@ def basic_timing(win):
             key_name = "no key"
             
         # Get end time
+        end_t = core.getTime()
         t2 = datetime.now()
         
         # Display results
-        print(f"Time elapsed for script execution: {(t2-t1).total_seconds():.3f}")
+        print(f"Time elapsed for script execution (python datetime): {(t2-t1).total_seconds():.3f}")
+        print(f"Time elapsed for script execution (psycopy core time): {(end_t-start_t):.3f}")
         print(f"You pressed key {key_name} after {react_time:.3f} seconds")
 
         # Refresh the screen

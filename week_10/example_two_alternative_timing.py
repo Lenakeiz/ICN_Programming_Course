@@ -2,20 +2,37 @@ from psychopy import visual, core, event, monitors
 import numpy as np
 import time
 from datetime import datetime
+from screeninfo import get_monitors
 
 def create_window():
+    # Get system monitors information
+    system_monitors = get_monitors()
+    print(f"System detected monitors: {system_monitors}")
+    
+    # Get the external monitor (it may be indexed differently on your system)
+    screen_index = 1 if len(system_monitors) > 1 else 0
+    target_monitor = system_monitors[screen_index]
+    print(f"Using monitor: {target_monitor}")
+    print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
     """Create a PsychoPy window with black background"""
     return visual.Window(
         fullscr=True,
         monitor="testMonitor",
         units="pix",
         color=[0, 0, 0],
-        colorSpace='rgb255'
+        colorSpace='rgb255',
+        screen=screen_index
     )
 
 def alternative_timing(win):
     """Example 2: Reading keyboard input with timings (part 2)"""
     try:
+
+        # Create variables for timing and response tracking
+        trial_duration = 4.0
+        read_response = False
+        react_time = 0
+        keys = []
 
         # Create instruction text
         instruction = visual.TextStim(
@@ -30,28 +47,17 @@ def alternative_timing(win):
         
         # Draw instruction and flip window
         instruction.draw()
-        win.flip()
-        # Create variables for timing and response tracking
-        trial_duration = 4.0
-        read_response = False
-        react_time = 0
-        
-        # Clear event buffer and wait for all keys to be released
-        event.clearEvents()
-        keys = []
-        while keys:  # Wait until no keys are pressed
-            keys = event.getKeys()
-            
+        win.flip()        
+           
         # Get start times
         start_t = core.getTime()
         curr_t = start_t
-        t1 = datetime.now()
         
         print(f"Showing keyboard timings using example 2. Start time: {start_t:.3f}s")
         resp_key = None
         
         # Main trial loop
-        while (curr_t - start_t < trial_duration):
+        while (curr_t - start_t <= trial_duration):
             # Check for key presses
             keys = event.getKeys(timeStamped=True)
             
@@ -63,12 +69,10 @@ def alternative_timing(win):
                 
             # Update current time and refresh screen
             curr_t = core.getTime()
-            
-        # Get end time
-        t2 = datetime.now()
         
         # Display results
-        print(f"Time elapsed for script execution: {(t2-t1).total_seconds():.3f}")
+        end_t = core.getTime()
+        print(f"Time elapsed for script execution (psycopy core time): {(end_t-start_t):.3f}")
         if resp_key:
             print(f"You pressed key {resp_key} after {react_time:.3f} seconds")
         else:

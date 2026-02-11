@@ -1,14 +1,26 @@
 from psychopy import visual, core, event, monitors
 import numpy as np
 
+from screeninfo import get_monitors
+
 def create_window():
+    # Get system monitors information
+    system_monitors = get_monitors()
+    print(f"System detected monitors: {system_monitors}")
+    
+    # Get the external monitor (it may be indexed differently on your system)
+    screen_index = 1 if len(system_monitors) > 1 else 0
+    target_monitor = system_monitors[screen_index]
+    print(f"Using monitor: {target_monitor}")
+    print(f"Resolution: {target_monitor.width}x{target_monitor.height}")
     """Create a PsychoPy window with black background"""
     return visual.Window(
         fullscr=True,
         monitor="testMonitor",
         units="pix",
         color=[0, 0, 0],
-        colorSpace='rgb255'
+        colorSpace='rgb255',
+        screen=screen_index
     )
 
 def framerate_timing(win):
@@ -29,7 +41,7 @@ def framerate_timing(win):
         # Create instruction text
         instruction = visual.TextStim(
             win=win,
-            text="Press any key to quit\n\nWatch the changing colors",
+            text=f"Colors will change every {required_seconds} seconds\n\nPress any key to exit",
             pos=(0, 0),
             color=[255, 255, 255],
             colorSpace='rgb255',
