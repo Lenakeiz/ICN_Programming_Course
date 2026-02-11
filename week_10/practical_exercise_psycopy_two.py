@@ -69,7 +69,7 @@ def demonstrate_mario_game():
         # Create window
         win = visual.Window(
             fullscr=True,
-            monitor="testMonitor",
+            monitor="testingMonitor",
             units="pix",
             color=exp_info['palette_black'],
             colorSpace='rgb255',
