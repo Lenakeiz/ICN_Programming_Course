@@ -13,8 +13,8 @@ def create_random_trial_structure():
     ]
     
     # Set number of presentations for each image
-    exp_info['n_presentations'] = 3
-    
+    exp_info['n_presentations'] = 2 
+       
     # Create array of indices repeated n_presentations times
     # np.tile is equivalent to MATLAB's repmat
     trial_structure = np.tile(

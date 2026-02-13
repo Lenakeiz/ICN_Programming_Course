@@ -70,7 +70,7 @@ def test_audio():
         list_audio_devices()
         
         # Play a test tone (440Hz = A4 note)
-        play_tone(frequency=440, duration=0.5)
+        play_tone(frequency=440, duration=0.5, volume=0.5)
         
         # Wait a moment between sounds
         core.wait(0.5)
