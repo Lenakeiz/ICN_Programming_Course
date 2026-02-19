@@ -18,9 +18,13 @@ The **ICN Programming Course** is a comprehensive 10-week introduction to Python
 - **Data Visualization**: Matplotlib and Seaborn for creating publication-quality plots - with exploratory analysis made using the IMDB dataset
 - **Version Control**: Git fundamentals for tracking changes and collaborating on code
 - **Experiment Building**: PsychoPy for creating visual stimuli, collecting keyboard/mouse input, precise timing, audio output, and participant dialogs
-- **Practical Projects**: Hands-on mini-projects including an expense tracker, grid cell firing rate analysis, and interactive Mario-style experiment demos
+- **Practical Exercises (with solutions)**: Each lecture includes hands-on exercises with provided solutions
+- **Full Project Showcases**: During the course we build complete projects from scratch, including:
+  - **Grid cell firing rate analysis** — starting from raw data of the [Gardner et al., 2022](https://www.nature.com/articles/s41586-021-04268-7) paper
+  - **Exploratory analysis of the IMDB movie dataset** — data visualization and plotting with the [IMDB movie dataset](https://raw.githubusercontent.com/LearnDataSci/articles/master/Python%20Pandas%20Tutorial%20A%20Complete%20Introduction%20for%20Beginners/IMDB-Movie-Data.csv)
+  - **Videogame-inspired experiment** — an interactive videogame-style experiment demo built with PsychoPy
 
-The course is structured around Jupyter notebooks with exercises, plus standalone Python scripts for the PsychoPy modules. All materials are designed to run in VS Code, Jupyter, or Google Colab.
+The course is structured around Jupyter notebooks, plus standalone Python scripts for the PsychoPy modules. All materials are designed to run in VS Code, Jupyter, or Google Colab — **except the PsychoPy lectures (weeks 9–10)**, which require the recommended Python version and cannot be run in Google Colab.
 
 ---
 
@@ -62,26 +66,23 @@ python --version
 python week_1/hello_word.py
 ```
 
-### Step 4: Launch Jupyter (for notebooks)
+### Step 4: Open Jupyter notebooks in your IDE
 
-```bash
-# From within the pipenv shell
-jupyter notebook
-# or
-jupyter lab
-```
+Open the notebook files (`.ipynb`) in your preferred IDE — **VS Code is recommended**. Select the Pipenv environment as the Jupyter kernel so that the notebook uses the correct Python and installed packages. In VS Code, use the kernel picker in the top-right of the notebook and choose the interpreter from your Pipenv virtual environment.
 
 ### Useful Pipenv Commands
+
+You can run these commands in a terminal within your IDE (e.g., VS Code's integrated terminal: *Terminal → New Terminal*) or in a standalone terminal.
 
 | Command | Description |
 |--------|-------------|
 | `pipenv shell` | Activate the virtual environment |
 | `pipenv run python script.py` | Run a script without activating the shell |
 | `pipenv run jupyter notebook` | Start Jupyter without activating the shell |
-| `pipenv install --dev package` | Add a development dependency |
+| `pipenv install <package>` | Add <package> to the virtual environment |
 | `exit` | Deactivate the pipenv shell |
 
-### Dependencies (from Pipfile)
+### Dependencies (listed also in the Pipfile inside the project)
 
 - **jupyter**, **ipykernel** — Notebooks and kernels
 - **numpy**, **pandas** — Numerical computing and data manipulation
@@ -89,7 +90,6 @@ jupyter lab
 - **scipy** — Scientific computing
 - **psychopy** — Experiment creation (stimuli, timing, input)
 - **screeninfo** — Monitor detection for PsychoPy
-- **sounddevice** — Audio support
 
 ---
 
@@ -101,10 +101,10 @@ jupyter lab
 | **Week 2** | NumPy mathematical functions, random numbers; Git introduction | [week_2/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_2) |
 | **Week 3** | Control flow (`if`/`elif`/`else`), loops, dictionaries, user input | [week_3/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_3) |
 | **Week 4** | Object-oriented programming: functions and classes | [week_4/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_4) |
-| **Week 5** | File handling, exceptions, working example with simple plotting (e.g., grid cell firing rate map) | [week_5/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_5) |
+| **Week 5** | File handling, exceptions, working example with [Gardner et al. 2022](https://www.nature.com/articles/s41586-021-04268-7) [dataset](https://figshare.com/articles/dataset/Toroidal_topology_of_population_activity_in_grid_cells/16764508) showing a grid cell firing rate map visualization | [week_5/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_5) |
 | **Week 6** | Python recap — expense tracker mini-project (lists, loops, conditionals, dictionaries, functions, files, plots) | [week_6/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_6) |
 | **Week 7** | Pandas: DataFrames, Series, data loading, slicing, merging, and manipulation | [week_7/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_7) |
-| **Week 8** | Data visualization with Matplotlib and Seaborn; Anscombe's Quartet and the importance of plotting | [week_8/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_8) |
+| **Week 8** | Data visualization with Matplotlib and Seaborn; Anscombe's Quartet and the importance of plotting; exploratory analysis with [IMDB movie dataset](https://raw.githubusercontent.com/LearnDataSci/articles/master/Python%20Pandas%20Tutorial%20A%20Complete%20Introduction%20for%20Beginners/IMDB-Movie-Data.csv) | [week_8/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_8) |
 | **Week 9** | PsychoPy Part 1: windows, shapes, lines, fixation crosses, images, text, keyboard input | [week_9/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_9) |
 | **Week 10** | PsychoPy Part 2: timing, framerate, mouse/cursor input, audio output, randomization, input dialogs | [week_10/](https://github.com/Lenakeiz/ICN_Programming_Course/tree/main/week_10) |
 
